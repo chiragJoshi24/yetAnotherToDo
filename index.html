@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/checklist.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo App</title>
+</head>
+<body>
+    <h1 class="w-100vw justify-center text-6xl font-black my-3 text-center max-w-[70%]">YET ANOTHER TODO APP</h1>
+    <div class="justify-between flex w-[48rem] flex-row my-3 mx-auto max-w-[70%]">
+        <input type="text" class="w-[40rem] rounded-lg h-10 border border-gray-300 px-2" id="newTask" placeholder="Enter your task">
+        <button class="bg-orange-300 px-4 py-2 rounded-lg font-semibold" id="AddTask">Add Task</button>
+    </div>
+    <div class="bg-orange-300 h-[70%] w-[48rem] my-3 rounded-lg mx-auto max-w-[70%] p-3 overflow-y-auto" id="ListOfTasks"></div>
+    <script src="script.js"></script>
+</body>
+</html>
